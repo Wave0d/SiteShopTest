@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Puma-Wave';
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Puma-Wave-Medium';
+    src: url(assets/fonts/Roboto-Medium.ttf);
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #101010;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #555555;
+    border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(58, 58, 58);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(44, 44, 44);
+}
+section {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Puma-Wave-Medium";
+    font-size: 1rem;
+    padding: 5px 100px;
+}
+section ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Puma-Wave-Medium";
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 1.1rem;
+    padding: 0px 500px ;
+    margin-left: 70px;
+}
+.img-nav img  {
+    padding: 0px 5px ;
+}
+.contenur-img {
+    height: 895px;
+    background-image: url(assets/image/fond3.jpg);
+}
+
+.text-promo {
+    margin: -513px 170px ;
+    font-size: 2rem;
+}
+h1 {
+    color: white;
+    font-family: "Puma-Wave";
+}
+.text-promo a {
+    color: rgb(23, 23, 23);
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 8px 30px ;
+    font-family: "Puma-Wave";
+    border-radius: 3px;
+    margin-left: 145px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.633);
+}
+.annonce-main {
+    margin: 940px 12px;
+}
+.img-annonce {
+    padding: 1px 30px ;
+}
+
+/* title and price annonce*/
+
+.titlle-img1 {
+    margin: -940px 43px;
+    font-family: "Puma-Wave";
+    display: flex;
+}
+.para2 {
+    margin-left: 80px;
+}
